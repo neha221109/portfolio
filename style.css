@@ -1,0 +1,29 @@
+body{
+    background: linear-gradient(#a83275,#323ca8,#32a860);
+    text-align: center;
+}
+.line{
+  background-color: black;
+    width: 100px;
+    height:8px;
+    margin:auto;
+    margin-bottom: 10px;
+}
+#games img{
+    height: 500px;
+    width: 400px;
+    margin:20px;
+    transition:transform 0.3s;
+}
+img:hover{
+    transform:scale(1.1);
+}
+#myslide{
+    background-color: blue;
+}
+.carousel-inner p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 20px;
+    color: beige;
+}
